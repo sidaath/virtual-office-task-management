@@ -18,9 +18,7 @@ function App() {
   const [assign, setAssign] = useState(null);
   const [reports, setReports] = useState(null);
 
-  useEffect(() => {
-    console.log(tasks, inspect, assign, reports);
-  }, [tasks, inspect, assign, reports]);
+  useEffect(() => {}, [tasks, inspect, assign, reports]);
 
   //when you click on a button, one of these functions is used to set the 4 variables above.
   //used to render correct pane.

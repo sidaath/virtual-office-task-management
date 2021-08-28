@@ -13,11 +13,11 @@ export default function TabBar(props) {
       <button onClick={inspect} className='task-nav-btn'>
         Inspect
       </button>
-      <button onClick={reports} className='task-nav-btn'>
-        Reports
-      </button>
       <button onClick={assign} className='task-nav-btn'>
         Assign
+      </button>
+      <button onClick={reports} className='task-nav-btn'>
+        Reports
       </button>
     </div>
   );

@@ -1,0 +1,18 @@
+.inspect {
+  min-height: 95%;
+  min-width: 100%;
+  display: flex;
+}
+
+.inspect-assigned_tasks {
+  background-color: palegreen;
+  width: 50%;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.inspect-progress {
+  background-color: paleturquoise;
+  width: 50%;
+  border-radius: 5px;
+}

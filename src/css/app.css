@@ -1,13 +1,14 @@
 @import 'tab-bar.css';
 @import 'my-tasks.css';
+@import 'inspect.css';
+@import 'assign.css';
+@import 'reports.css';
 
-
-.root{
-    height: 100vh;
+.root {
+  height: 100vh;
 }
 
-
-body{
-    margin: 0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  box-sizing: border-box;
 }

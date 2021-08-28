@@ -1,0 +1,24 @@
+.reports {
+  min-height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reports-stats {
+  background-color: rgb(123, 160, 67);
+  margin-top: 10px;
+  min-width: 95%;
+  max-width: 95%;
+  height: 50vh;
+  border-radius: 5px;
+}
+
+.reports-tasks {
+  background-color: rgb(111, 172, 207);
+  margin-top: 10px;
+  min-width: 95%;
+  max-width: 95;
+  height: 40vh;
+  border-radius: 5px;
+}

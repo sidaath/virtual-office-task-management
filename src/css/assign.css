@@ -1,0 +1,24 @@
+.assign {
+  min-height: 95%;
+  display: flex;
+}
+
+.assign-employees {
+  width: 25%;
+  border-radius: 5px;
+  background-color: paleturquoise;
+  margin-right: 5px;
+}
+
+.assign-details {
+  width: 50%;
+  background-color: rosybrown;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.assign-drafts {
+  width: 25%;
+  border-radius: 5px;
+  background-color: peru;
+}
