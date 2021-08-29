@@ -1,28 +1,41 @@
-.my-tasks{
-    min-width: 100%;
-    min-height: 95%;
-    display: flex;
-    
+.my-tasks {
+  min-width: 100%;
+  min-height: 95%;
+  max-height: 95%;
+  display: flex;
 }
 
-.my-tasks-overview{
-    margin-right: 2px;
-    border-radius: 10px;
-    width: 20%;
-    background-color: red;
+.my-tasks-overview {
+  margin-right: 2px;
+  border-radius: 10px;
+  width: 20%;
+  background-color: #cdc6f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
 }
 
-.my-tasks-item_detail{
-    margin-right: 2px;
-    border-radius: 10px;
-    width: 50%;
-    background-color: gray;
+.my-tasks-item_detail {
+  margin-right: 2px;
+  border-radius: 10px;
+  width: 50%;
+  background-color: gray;
 }
 
-.my-tasks-related_info{
-    border-radius: 10px;
-    width: 30%;
-    background-color: green;
+.my-tasks-related_info {
+  border-radius: 10px;
+  width: 30%;
+  background-color: green;
 }
 
+.my-tasks-overview_add-task {
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 3em;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
 
+  cursor: pointer;
+}

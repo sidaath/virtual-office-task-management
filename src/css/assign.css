@@ -1,5 +1,6 @@
 .assign {
   min-height: 95%;
+  max-height: 95%;
   display: flex;
 }
 
@@ -8,6 +9,11 @@
   border-radius: 5px;
   background-color: paleturquoise;
   margin-right: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
 }
 
 .assign-details {
@@ -15,6 +21,79 @@
   background-color: rosybrown;
   border-radius: 5px;
   margin-right: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+}
+
+.assign-details_header {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple;
+}
+
+.assign-details_header-add_button {
+  font-size: 1.5em;
+}
+
+.assign-new-task {
+  margin-top: 10px;
+  background-color: seagreen;
+  width: 95%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+
+  position: relative;
+}
+
+.assign-new-task-title-div,
+.assign-new-task-description-div {
+  background-color: seashell;
+  margin-top: 10px;
+  font-size: 2em;
+  max-height: 10%;
+}
+
+.assign-new-task-input-div {
+  margin-top: 10px;
+}
+
+.assign-new-task_title-input {
+  font-size: 2em;
+  width: 45vw;
+  border-radius: 5px;
+}
+
+.assign-new-task-description-input-div {
+  margin-top: 10px;
+}
+
+.assign-new-task_description-input {
+  font-size: 2em;
+  width: 45vw;
+  height: 200px;
+  resize: none;
+}
+
+.assign-new-task-add-button {
+  font-size: 2em;
+  margin-top: 50px;
+  margin-right: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.assign-new-task-add-button:hover {
+  background-color: slategray;
 }
 
 .assign-drafts {

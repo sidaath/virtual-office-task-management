@@ -3,7 +3,8 @@
 @import 'inspect.css';
 @import 'assign.css';
 @import 'reports.css';
-
+@import 'task-card-mini.css';
+@import 'employee-card-mini.css';
 .root {
   height: 100vh;
 }

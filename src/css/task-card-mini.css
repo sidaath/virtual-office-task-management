@@ -1,0 +1,30 @@
+.task-card-mini {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 18vw;
+  border-radius: 5px;
+  height: 60px;
+  border: 2px solid black;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.task-card-mini:hover {
+  background-color: burlywood;
+}
+
+.task-card-mini-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-card-mini-time {
+  margin-right: 10px;
+}
+
+.task-card-mini-body {
+  max-height: 10vh;
+  overflow-y: auto;
+}

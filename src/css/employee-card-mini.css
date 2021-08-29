@@ -1,0 +1,13 @@
+.employee-card-mini {
+  margin-top: 10px;
+  cursor: pointer;
+
+  width: 22vw;
+  height: 10vh;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.employee-card-mini:hover {
+  background-color: burlywood;
+}
